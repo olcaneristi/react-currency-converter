@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background: linear-gradient(
+    to right,
+    #485563,
+    #29323c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.app,
+.container {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  display: flex;
+  min-height: 95vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3,
+.equal {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.equal {
+  color: rgb(33, 96, 116);
+}
+
+.swapbtn {
+  padding: 5px;
+  font-size: 15px;
+}
+
+p {
+  font-style: italic;
+  padding: 5px;
+}
+
+.container {
+  width: 450px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+}
+
+.form-inline {
+  padding: 15px;
+}
+
+.form-control {
+  padding: 10px;
+  margin: 3px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.swap {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
